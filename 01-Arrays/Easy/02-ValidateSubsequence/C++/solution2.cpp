@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 // O(n) time | O(n) space
-bool isValidSubsequence(vector<int> array, vector<int> sequence, int i = 0, int j = 0) {
+bool isValidSubsequence(vector<int> &array, vector<int> &sequence, int i = 0, int j = 0) {
     if(j == sequence.size())
         return true;
     if(i == array.size())
